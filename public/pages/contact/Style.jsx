@@ -5,7 +5,7 @@ export const BackGround = styled.div`
   height: 100vh;
   width: 100vw;
 
-  background: red;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;

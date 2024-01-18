@@ -1,7 +1,6 @@
 import React from "react";
 
 import { BackGround, Title, Box, ContactBoxBut } from "./Style";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPen,
