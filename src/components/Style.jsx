@@ -10,6 +10,16 @@ export const StyledNavbar = styled.div`
 
 export const NavbarMenu = styled.button`
   color: white;
-  margin: 8px;
   text-decoration: none;
+`;
+
+export const LogoButton = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+`;
+
+export const Image = styled.img`
+  max-width: 800px;
+  margin: 20px auto;
 `;

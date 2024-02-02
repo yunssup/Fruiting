@@ -40,11 +40,24 @@ export const Logo = styled.div`
   margin-top: 0%;
 `;
 export const Image = styled.img`
-  width: 20%;
-  /* height: 50%; */
-  margin: 23px auto;
-`;
+  width: 22%;
+  height: 80%;
 
+  margin: 25px auto;
+`;
+export const Image1 = styled.img`
+  width: 25%;
+  height: 80%;
+
+  margin: 23px auto;
+  margin-top: 30px;
+`;
+export const Image2 = styled.img`
+  width: 25%;
+  height: 80%;
+  margin: 23px auto;
+  margin-top: 65px;
+`;
 export const TimeBox = styled.div`
   width: 80%;
   height: 60px;
@@ -71,9 +84,53 @@ export const MonthBox = styled.div`
   font-weight: bold;
   box-shadow: 0px 4px 4px #00000040;
 `;
+export const InfoBox = styled.div`
+  display: flex;
+  width: 22%;
+  height: 120px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0px 4px 4px #00000040;
+  line-height: 200%;
+  border: 2px solid #ffa100;
+`;
+export const InfoBoxContainer = styled.div`
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+`;
+
 export const Box = styled.div`
   display: flex;
   flex-direction: row;
+  /* border: 1px solid red; */
+`;
+export const ImageWe = styled.img`
+  width: 20%;
+  /* height: 50%; */
+  /* margin: 23px auto; */
+`;
+export const BoxWe = styled.div`
+  display: flex;
+  width: 120%;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0px 4px 4px #00000040;
+  line-height: 200%;
+  border: 2px solid #ffa100;
+  margin-top: 5%;
 `;
 export const ContactBoxBut = styled.button`
   display: flex;
