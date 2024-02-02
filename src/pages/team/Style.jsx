@@ -35,7 +35,6 @@ export const ContactBoxBut = styled.button`
   background: #f5f5f5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border: none;
-  margin: 1%;
   color: #000;
   font-family: Inter;
   font-size: 24px;

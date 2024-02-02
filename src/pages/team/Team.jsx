@@ -12,7 +12,7 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 function Contact() {
   return (
     <BackGround>
-      <Title>Contact 프루잉</Title>
+      <Title>Contact 프루잉 </Title>
       <Box>
         <ContactBoxBut>
           <FontAwesomeIcon icon={faComment} size="3x" />
@@ -28,16 +28,10 @@ function Contact() {
           <FontAwesomeIcon icon={faInstagram} size="3x" />
           인스타그램
         </ContactBoxBut>
-        <a
-          href="https://blog.naver.com/fruitingofficial"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none" }}
-        >
-          <ContactBoxBut>
-            <FontAwesomeIcon icon={faPen} size="3x" /> 블로그
-          </ContactBoxBut>
-        </a>
+
+        <ContactBoxBut>
+          <FontAwesomeIcon icon={faPen} size="3x" /> 블로그
+        </ContactBoxBut>
       </Box>
     </BackGround>
   );

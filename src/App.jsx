@@ -1,7 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Contact from "../public/pages/contact/Contact";
-import Navbar from "../public/components/navbar";
+import Fruiting from "./pages/Fruitung/Fruiting";
+import Team from "./pages/team/Team";
+import Navbar from "./components/Navbar";
 import "./index.css";
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Contact />} />
+        <Route path="/" element={<Fruiting />} />
+        <Route path="/Fruiting" element={<Fruiting />} />
       </Routes>
     </div>
   );

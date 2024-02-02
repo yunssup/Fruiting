@@ -8,7 +8,7 @@ function CustomNavbar() {
     <div>
       <StyledNavbar>
         <Link className="NavbarMenu" to={"/"}>
-          Main
+          Team
         </Link>
         <Link className="NavbarMenu" to={"/Project"}>
           Project
