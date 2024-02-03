@@ -14,7 +14,7 @@ export const BackGround = styled.div`
 export const Title = styled.div`
   color: #000;
   font-family: Inter;
-  font-size: 35px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -30,7 +30,7 @@ export const Image = styled.img`
 export const Story = styled.div`
   color: #000;
   font-family: Inter;
-  font-size: 48px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
