@@ -26,7 +26,6 @@ export const MainTitle = styled.div`
 `;
 export const Image = styled.img`
   width: 20%;
-  margin-top: 10%;
 `;
 export const Story = styled.div`
   color: #000;
