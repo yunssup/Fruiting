@@ -125,13 +125,13 @@ function Fruiting() {
           재무 및 원가회계 업무를 담당하고 있어요!
         </BoxWe>
       </Box>
-      <Box>
+      {/* <Box>
         <BoxWe>
           디자인 / 마케팅 : 김진영 (경영학) <br /> 지속 가능한 비즈니스를 위한
           재무 및 원가회계 업무를 담당하고 있어요!
         </BoxWe>
         <ImageWe src="./public/Image/진영.png" alt="프루잉 이미지" />
-      </Box>
+      </Box> */}
       {/* 4페이지 */}
       <Title>Contact</Title>
       <Box>
