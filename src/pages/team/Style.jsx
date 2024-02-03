@@ -14,31 +14,26 @@ export const BackGround = styled.div`
 export const Title = styled.div`
   color: #000;
   font-family: Inter;
-  font-size: 50px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  text-align: center;
+  margin-top: 10%;
 `;
-export const Box = styled.div`
+export const MainTitle = styled.div`
   display: flex;
-  flex-direction: row;
 `;
-export const ContactBoxBut = styled.button`
-  display: flex;
-  flex-direction: column;
-  width: 246px;
-  height: 207px;
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
-  background: #f5f5f5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border: none;
+export const Image = styled.img`
+  width: 20%;
+  margin-top: 10%;
+`;
+export const Story = styled.div`
   color: #000;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 48px;
   font-style: normal;
-  font-weight: 550;
-  line-height: 2.5;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
 `;

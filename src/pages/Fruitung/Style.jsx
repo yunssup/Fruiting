@@ -13,7 +13,6 @@ export const BackGround = styled.div`
 `;
 export const Title = styled.div`
   color: #000;
-  font-family: Inter;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -30,7 +29,6 @@ export const Hi = styled.div`
 `;
 export const Story = styled.div`
   color: #000;
-  font-family: Inter;
   font-size: 21px;
   font-style: normal;
   text-align: center;
