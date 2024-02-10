@@ -13,11 +13,12 @@ export const BackGround = styled.div`
 `;
 export const Title = styled.div`
   color: #000;
-  font-size: 30px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   font-family: "Black Han Sans", sans-serif;
+  margin: 1% 0%;
 `;
 export const Hi = styled.div`
   color: #000;
@@ -34,6 +35,7 @@ export const Story = styled.div`
   font-style: normal;
   font-family: "Black Han Sans", sans-serif;
   text-align: center;
+  font-weight: 400;
 `;
 export const Logo = styled.div`
   display: flex;
@@ -180,12 +182,9 @@ export const InfoBoxContainer = styled.div`
 export const Box = styled.div`
   display: flex;
   flex-direction: row;
-  /* border: 1px solid red; */
 `;
 export const ImageWe = styled.img`
   width: 20%;
-  /* height: 50%; */
-  /* margin: 23px auto; */
 `;
 export const BoxWe = styled.div`
   display: flex;
@@ -206,19 +205,22 @@ export const BoxWe = styled.div`
 export const ContactBoxBut = styled.button`
   display: flex;
   flex-direction: column;
-  width: 246px;
+  width: 220px;
   height: 207px;
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background: #f5f5f5;
+  background: #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border: none;
+  border: 2px solid #ffa100;
   color: #000;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 550;
   line-height: 2.5;
+  margin-top: 5%;
+  margin-right: 5%;
+  /* margin-left: 5%; */
 `;

@@ -23,6 +23,7 @@ import {
   Run,
 } from "./Style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faPen,
   faEnvelope,
@@ -102,9 +103,8 @@ function Fruiting() {
       </Box>
       <Box>
         <BoxWe>
-          상품 기획 : 권두윤 (식품생명공학)
-          <br /> 폐지수거노인분들에게 더 나은 일자리를 제공하기 위해 상품 기획을
-          담당하고 있어요!
+          상품 기획 : 권두윤 (식품생명공학) <br /> 지속 가능한 비즈니스를 위한
+          재무 및 원가회계 업무를 담당하고 있어요!!
         </BoxWe>
         <ImageWe src="./public/Image/두윤.png" alt="프루잉 이미지" />
       </Box>
