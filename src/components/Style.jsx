@@ -3,10 +3,12 @@ import styled from "styled-components";
 
 export const StyledNavbar = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100vw;
   background-color: #fffbf5;
+  border: none;
+  /* position: fixed; */
+  /* z-index: 1000; */
 `;
 
 export const NavbarMenu = styled.button`
@@ -22,11 +24,16 @@ export const LogoButton = styled.button`
   background: none;
   border: none;
   cursor: pointer;
-  margin-left: 800%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Image = styled.img`
   max-width: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 `;
 
 export const CenteredContainer = styled.div`
