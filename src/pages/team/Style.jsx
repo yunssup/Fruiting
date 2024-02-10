@@ -24,9 +24,7 @@ export const Title = styled.div`
 export const MainTitle = styled.div`
   display: flex;
 `;
-export const Image = styled.img`
-  width: 20%;
-`;
+export const Image = styled.img``;
 export const Story = styled.div`
   color: #000;
   font-family: Inter;

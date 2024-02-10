@@ -12,9 +12,15 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 function Contact() {
   return (
     <BackGround>
+      <Title>
+        과일컵으로 싱그러운 아침을, <br />
+        폐지 수거 어르신에게 싱그러운 미래를
+      </Title>
+
+      {/* <Image src="./public/Image/슬로건배경.png" alt="프루잉 이미지" /> */}
+
       <MainTitle>
         <Title>프루잉은 폐지 수거 노인에게</Title>
-        {/* <Image src="./public/Image/노인.png" alt="프루잉 이미지" /> */}
       </MainTitle>
       <Story>
         <p>

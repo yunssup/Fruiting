@@ -7,13 +7,13 @@ function CustomNavbar() {
   return (
     <div>
       <StyledNavbar>
-        <LogoButton onClick={() => console.log("Button Clicked")}>
+        {/* <LogoButton onClick={() => console.log("Button Clicked")}>
           <Image src="./public/Image/프루잉로고.png" alt="프루잉 이미지" />
         </LogoButton>{" "}
         <div style={{ marginRight: "auto" }}></div>{" "}
         <NavbarMenu to={"/"}>Team</NavbarMenu>
-        <NavbarMenu to={"/Project"}>Project</NavbarMenu>
-        <NavbarMenu to={"/Contact"}>Contact</NavbarMenu>
+        <NavbarMenu to={"/Project"}>Project </NavbarMenu>
+        <NavbarMenu to={"/Contact"}>Contact</NavbarMenu> */}
       </StyledNavbar>
     </div>
   );

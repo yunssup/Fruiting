@@ -10,13 +10,6 @@ import {
   ImageRe,
   BoxRe,
 } from "./ReviewStyle";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPen,
-  faEnvelope,
-  faComment,
-} from "@fortawesome/free-solid-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function Project() {
   return (

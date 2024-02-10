@@ -3,35 +3,33 @@ import styled from "styled-components";
 
 export const StyledNavbar = styled.div`
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; 세로 가운데 정렬 */
+  justify-content: space-between;
+  align-items: center;
   width: 100vw;
   background-color: #fffbf5;
-  border: 1px solid red;
 `;
 
 export const NavbarMenu = styled.button`
   color: #656565;
   background-color: #fffbf5;
   text-decoration: none;
-  border: 1px solid black;
-  font-weight: bold;
-  font-size: 25px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 15px;
 `;
 
 export const LogoButton = styled.button`
   background: none;
   border: none;
   cursor: pointer;
-  border: 1px solid black;
+  margin-left: 800%;
 `;
 
 export const Image = styled.img`
   max-width: 80px;
-  border: 1px solid black;
 `;
 
 export const CenteredContainer = styled.div`
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 `;
