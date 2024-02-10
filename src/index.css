@@ -13,9 +13,4 @@ body {
   background-size: cover; /* 이미지를 화면에 가득 채우도록 설정합니다. */
 }
 
-@font-face {
-  font-family: "SUITE";
-  font-style: normal;
-  src: url("./font/SUITE-Regular.ttf") format("truetype");
-}
-@import url("https://fonts.googleapis.com/css2?family=Orbit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");

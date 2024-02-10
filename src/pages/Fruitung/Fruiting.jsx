@@ -11,12 +11,16 @@ import {
   Logo,
   TimeBox,
   MonthBox,
-  InfoBox,
+  InfoBoxBottom1,
+  InfoBoxTop1,
+  InfoBoxBottom2,
+  InfoBoxTop2,
   InfoBoxContainer,
   ImageWe,
   BoxWe,
   Image2,
   Image1,
+  Run,
 } from "./Style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -55,19 +59,19 @@ function Fruiting() {
         </p>
       </Story>
       {/* 2페이지 */}
-      <Hi>지금까지 프루잉은 이렇게 달려왔어요!</Hi>
+      <Run>지금까지 프루잉은 이렇게 달려왔어요!</Run>
       <InfoBoxContainer>
-        <InfoBox>
+        <InfoBoxTop1>
           팀 빌딩
           <br />
           인액터스 프로젝트 아이디어 대회 동상 <br />
           인액터스 솔루션 코칭 부트캠프 합격
-        </InfoBox>
-        <InfoBox>
+        </InfoBoxTop1>
+        <InfoBoxTop2>
           과일컵 정기 배송 1차 체험단 진행
           <br />
           2023 동국 창업 위크 참여 <br />
-        </InfoBox>
+        </InfoBoxTop2>
       </InfoBoxContainer>
       <TimeBox>
         <MonthBox>4~6월</MonthBox>
@@ -76,16 +80,16 @@ function Fruiting() {
         <MonthBox>11~12월</MonthBox>
       </TimeBox>
       <InfoBoxContainer>
-        <InfoBox>
+        <InfoBoxBottom1>
           푸릇해 사당역점 협업 성사
           <br />
           (사)함께 만드는 세상 "자주모여" 지원 대상 선정
-        </InfoBox>{" "}
-        <InfoBox>
+        </InfoBoxBottom1>{" "}
+        <InfoBoxBottom2>
           대학생 esg 청년 창업 아이디어 공모전 우수상
           <br />
           과일컵 정기 배송 2차 체험단 진행 <br />
-        </InfoBox>
+        </InfoBoxBottom2>
       </InfoBoxContainer>
       {/* 3페이지 */}
       <Hi>프루잉의 팀원들을 소개할게요</Hi>
