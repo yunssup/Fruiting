@@ -46,7 +46,7 @@ function Fruiting() {
         {/* 1페이지 */}
         <Hi>안녕하세요, 프루잉입니다!</Hi>
         <Logo>
-          <Image src="./public/Image/동국대로고.png" alt="프루잉 이미지" />
+          <Image src="Image/동국대로고.png" alt="수정중.." />
           <Image1 src="./public/Image/프루잉로고.png" alt="프루잉 이미지" />
           <Image2 src="./public/Image/인액로고.png" alt="프루잉 이미지" />
         </Logo>
