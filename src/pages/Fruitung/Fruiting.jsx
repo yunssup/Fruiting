@@ -128,7 +128,7 @@ function Fruiting() {
         {/* 3페이지 */}
         <Hi>프루잉의 팀원들을 소개할게요</Hi>
         <Box>
-          <ImageWe src="./public/Image/유빈.png" alt="프루잉 이미지" />
+          <ImageWe src="public\Image\유빈.png" alt="프루잉 이미지" />
           <BoxWe>
             PM: 진유빈 (교육학/경영학)
             <br /> 프루잉의 PM으로서 프로젝트 전반을 관리하며 팀을 이끌어나가요!
@@ -153,7 +153,7 @@ function Fruiting() {
             서비스 개발 : 김윤서 (경영학/ 컴퓨터공학) <br /> 많은 분들이
             프루잉에 대해 알 수 있도록 프루잉의 웹서비스를 개발해요!
           </BoxWe>
-          <ImageWe src="./public/Image/yun.png" alt="프루잉 이미지" />
+          <ImageWe src="./public/Image/윤서.png" alt="프루잉 이미지" />
         </Box>
         <Box>
           <ImageWe src="./public/Image/준희.png" alt="프루잉 이미지" />
