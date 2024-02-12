@@ -153,7 +153,7 @@ function Fruiting() {
             서비스 개발 : 김윤서 (경영학/ 컴퓨터공학) <br /> 많은 분들이
             프루잉에 대해 알 수 있도록 프루잉의 웹서비스를 개발해요!
           </BoxWe>
-          <ImageWe src="./public/Image/윤서.png" alt="프루잉 이미지" />
+          <ImageWe src="./public/Image/yun.png" alt="프루잉 이미지" />
         </Box>
         <Box>
           <ImageWe src="./public/Image/준희.png" alt="프루잉 이미지" />
