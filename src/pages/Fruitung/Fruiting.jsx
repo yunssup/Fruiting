@@ -172,7 +172,10 @@ function Fruiting() {
         {/* 4페이지 */}
         <Title>Contact</Title>
         <Box>
-          <Link to="https://www.naver.com/" style={{ textDecoration: "none" }}>
+          <Link
+            to="http://pf.kakao.com/_xfqLxdG"
+            style={{ textDecoration: "none" }}
+          >
             <ContactBoxBut>
               <FontAwesomeIcon icon={faComment} size="3x" />
               카카오톡 플러스 채널

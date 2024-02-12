@@ -9,6 +9,7 @@ export const BackGround = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden; /* 가로 스크롤 숨김 */
 `;
 export const Title = styled.div`
   color: #000;
@@ -229,7 +230,7 @@ export const ImageWe = styled.img`
 `;
 export const BoxWe = styled.div`
   display: flex;
-  width: 120%;
+  width: 100%;
   height: 80px;
   background-color: #ffffff;
   border-radius: 40px;
