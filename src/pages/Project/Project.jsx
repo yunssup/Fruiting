@@ -25,7 +25,11 @@ function Project() {
             2차 체험단 구경하기
           </Box2>
         </Link>
-        <Link to="/Review1" style={linkStyle}>
+        <Link
+          to="https://forms.gle/ufyXSUpgUfVQGVGSA"
+          style={{ textDecoration: "none" }}
+        >
+          {" "}
           <Box3>
             <Image src="Image/포도.png" alt="프루잉 이미지" />
             3차 체험단 신청하기

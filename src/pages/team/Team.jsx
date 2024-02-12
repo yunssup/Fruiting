@@ -1,24 +1,61 @@
 import React from "react";
 
-import { BackGround, Title, MainTitle, Image, Story } from "./Style";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faPen,
-  faEnvelope,
-  faComment,
-} from "@fortawesome/free-solid-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+  BackGround,
+  Title,
+  MainTitle,
+  Image,
+  Story,
+  Box,
+  BoxContainer,
+  S_Story,
+  BackImage,
+} from "./Style";
 
 function Contact() {
   return (
     <BackGround>
       <Title>
-        과일컵으로 싱그러운 아침을, <br />
-        폐지 수거 어르신에게 싱그러운 미래를
+        과일컵으로 싱그러운 아침을 🌄 <br />
+        폐지 수거 어르신에게 싱그러운 미래를 🌟
+        <BackImage src="Image/슬로건나무해2X.png" alt="수정중.." />
       </Title>
 
-      {/* <Image src="./public/Image/슬로건배경.png" alt="프루잉 이미지" /> */}
-
+      {/* 폐지수거노인이야기 */}
+      <Title>폐지 수거 노인분들의 이야기</Title>
+      <BoxContainer>
+        <Box>
+          생계형 폐지수거노인
+          <br />약 1만 5천명
+        </Box>
+        <Box>
+          하루 평균 폐지 수집량 <br />
+          87kg
+        </Box>{" "}
+        <Box>
+          하루 평균 노동 거리
+          <br />
+          12.3km
+        </Box>{" "}
+      </BoxContainer>
+      <BoxContainer>
+        <Box>
+          하루 평균 노동 시간
+          <br />
+          11시간 20분
+        </Box>{" "}
+        <Box>
+          평균 시급
+          <br />
+          938원
+        </Box>{" "}
+      </BoxContainer>
+      <S_Story>
+        해가 뜨지도 않은 새벽, 폐지수거노인분들은 집을 나섭니다. <br />
+        하루에도 몇번씩 폐지를 주워 고물상을 드나들지만 생계를 이어나가기엔
+        <br />
+        턱없이 부족합니다.
+      </S_Story>
       <MainTitle>
         <Title>프루잉은 폐지 수거 노인에게</Title>
       </MainTitle>
