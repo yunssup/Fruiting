@@ -14,7 +14,7 @@ function CustomNavbar() {
       <StyledNavbar>
         <Link to="/">
           <LogoButton onClick={() => console.log("Button Clicked")}>
-            <Image src="./public/Image/프루잉로고.png" alt="프루잉 이미지" />
+            <Image src="Image/프루잉로고.png" alt="프루잉 이미지" />
           </LogoButton>
         </Link>{" "}
         <div style={{ marginRight: "auto" }}></div>{" "}

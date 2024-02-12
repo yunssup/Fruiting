@@ -47,8 +47,8 @@ function Fruiting() {
         <Hi>안녕하세요, 프루잉입니다!</Hi>
         <Logo>
           <Image src="Image/동국대로고.png" alt="수정중.." />
-          <Image1 src="./public/Image/프루잉로고.png" alt="프루잉 이미지" />
-          <Image2 src="./public/Image/인액로고.png" alt="프루잉 이미지" />
+          <Image1 src="Image/프루잉로고.png" alt="프루잉 이미지" />
+          <Image2 src="Image/인액로고.png" alt="프루잉 이미지" />
         </Logo>
         <Story>
           <p>
@@ -128,7 +128,7 @@ function Fruiting() {
         {/* 3페이지 */}
         <Hi>프루잉의 팀원들을 소개할게요</Hi>
         <Box>
-          <ImageWe src="public\Image\유빈.png" alt="유빈 사진 수정..." />
+          <ImageWe src="Image\유빈.png" alt="유빈 사진 수정..." />
           <BoxWe>
             PM: 진유빈 (교육학/경영학)
             <br /> 프루잉의 PM으로서 프로젝트 전반을 관리하며 팀을 이끌어나가요!
@@ -139,10 +139,10 @@ function Fruiting() {
             상품 기획 : 권두윤 (식품생명공학) <br /> 더 나은 일자리를 위해
             고객과 프루잉을 연결할 수 있는 상품을 기획해요!
           </BoxWe>
-          <ImageWe src="./public/Image/두윤.png" alt="프루잉 이미지" />
+          <ImageWe src="Image/두윤.png" alt="프루잉 이미지" />
         </Box>
         <Box>
-          <ImageWe src="./public/Image/유정.png" alt="프루잉 이미지" />
+          <ImageWe src="Image/유정.png" alt="프루잉 이미지" />
           <BoxWe>
             회계/재무 : 윤유정 (회계학) <br /> 지속 가능한 비즈니스를 위한 재무
             및 원가회계 업무를 담당하고 있어요!
@@ -153,10 +153,10 @@ function Fruiting() {
             서비스 개발 : 김윤서 (경영학/ 컴퓨터공학) <br /> 많은 분들이
             프루잉에 대해 알 수 있도록 프루잉의 웹서비스를 개발해요!
           </BoxWe>
-          <ImageWe src="./public/Image/윤서.png" alt="프루잉 이미지" />
+          <ImageWe src="Image/윤서.png" alt="프루잉 이미지" />
         </Box>
         <Box>
-          <ImageWe src="./public/Image/준희.png" alt="프루잉 이미지" />
+          <ImageWe src="Image/준희.png" alt="프루잉 이미지" />
           <BoxWe>
             경영/기획 : 나준희 (국제통상학) <br /> 지속 가능한 비즈니스를 위한
             재무 및 원가회계 업무를 담당하고 있어요!
