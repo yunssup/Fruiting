@@ -23,6 +23,7 @@ import {
   Run,
 } from "./Style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 
 import {
   faPen,
@@ -31,8 +32,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Navbar from "../../components/Navbar";
+import { Link } from "react-router-dom";
 
 function Fruiting() {
+  const [isHoveredTop1, setIsHoveredTop1] = useState(false);
+  const [isHoveredTop2, setIsHoveredTop2] = useState(false);
+  const [isHoveredBottom1, setIsHoveredBottom1] = useState(false);
+  const [isHoveredBottom2, setIsHoveredBottom2] = useState(false);
+
   return (
     <>
       <BackGround>
@@ -64,31 +71,55 @@ function Fruiting() {
         {/* 2페이지 */}
         <Run>지금까지 프루잉은 이렇게 달려왔어요!</Run>
         <InfoBoxContainer>
-          <InfoBoxTop1>
+          <InfoBoxTop1 className={isHoveredTop1 ? "animated" : ""}>
             팀 빌딩
             <br />
             인액터스 프로젝트 아이디어 대회 동상 <br />
             인액터스 솔루션 코칭 부트캠프 합격
           </InfoBoxTop1>
-          <InfoBoxTop2>
+          <InfoBoxTop2 className={isHoveredTop2 ? "animated" : ""}>
             과일컵 정기 배송 1차 체험단 진행
             <br />
             2023 동국 창업 위크 참여 <br />
           </InfoBoxTop2>
         </InfoBoxContainer>
         <TimeBox>
-          <MonthBox>4~6월</MonthBox>
-          <MonthBox>7~8월</MonthBox>
-          <MonthBox>9~10월</MonthBox>
-          <MonthBox>11~12월</MonthBox>
+          <MonthBox
+            onMouseEnter={() => setIsHoveredTop1(true)}
+            onMouseLeave={() => setIsHoveredTop1(false)}
+            className={isHoveredTop1 ? "animated" : ""}
+          >
+            4~6월
+          </MonthBox>
+          <MonthBox
+            onMouseEnter={() => setIsHoveredBottom1(true)}
+            onMouseLeave={() => setIsHoveredBottom1(false)}
+            className={isHoveredBottom1 ? "animated" : ""}
+          >
+            7~8월
+          </MonthBox>
+          <MonthBox
+            onMouseEnter={() => setIsHoveredTop2(true)}
+            onMouseLeave={() => setIsHoveredTop2(false)}
+            className={isHoveredTop2 ? "animated" : ""}
+          >
+            9~10월
+          </MonthBox>
+          <MonthBox
+            onMouseEnter={() => setIsHoveredBottom2(true)}
+            onMouseLeave={() => setIsHoveredBottom2(false)}
+            className={isHoveredBottom2 ? "animated" : ""}
+          >
+            11~12월
+          </MonthBox>
         </TimeBox>
         <InfoBoxContainer>
-          <InfoBoxBottom1>
+          <InfoBoxBottom1 className={isHoveredBottom1 ? "animated" : ""}>
             푸릇해 사당역점 협업 성사
             <br />
             (사)함께 만드는 세상 "자주모여" 지원 대상 선정
           </InfoBoxBottom1>{" "}
-          <InfoBoxBottom2>
+          <InfoBoxBottom2 className={isHoveredBottom2 ? "animated" : ""}>
             대학생 esg 청년 창업 아이디어 공모전 우수상
             <br />
             과일컵 정기 배송 2차 체험단 진행 <br />
@@ -141,24 +172,40 @@ function Fruiting() {
         {/* 4페이지 */}
         <Title>Contact</Title>
         <Box>
-          <ContactBoxBut>
-            <FontAwesomeIcon icon={faComment} size="3x" />
-            카카오톡 플러스 채널
-          </ContactBoxBut>
-          <ContactBoxBut>
-            <FontAwesomeIcon icon={faEnvelope} size="3x" />
-            메일
-          </ContactBoxBut>
+          <Link to="https://www.naver.com/" style={{ textDecoration: "none" }}>
+            <ContactBoxBut>
+              <FontAwesomeIcon icon={faComment} size="3x" />
+              카카오톡 플러스 채널
+            </ContactBoxBut>
+          </Link>
+          <a
+            href="mailto:fruitingofficial@naver.com"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <ContactBoxBut>
+              <FontAwesomeIcon icon={faEnvelope} size="3x" />
+              메일
+            </ContactBoxBut>
+          </a>
         </Box>
         <Box>
-          <ContactBoxBut>
-            <FontAwesomeIcon icon={faInstagram} size="3x" />
-            인스타그램
-          </ContactBoxBut>
-
-          <ContactBoxBut>
-            <FontAwesomeIcon icon={faPen} size="3x" /> 블로그
-          </ContactBoxBut>
+          <Link
+            to="https://www.instagram.com/fruitingofficial?igsh=MTFkazRjMHRka2tjYg=="
+            style={{ textDecoration: "none" }}
+          >
+            <ContactBoxBut>
+              <FontAwesomeIcon icon={faInstagram} size="3x" />
+              인스타그램
+            </ContactBoxBut>
+          </Link>
+          <Link
+            to="https://blog.naver.com/fruitingofficial"
+            style={{ textDecoration: "none" }}
+          >
+            <ContactBoxBut>
+              <FontAwesomeIcon icon={faPen} size="3x" /> 블로그
+            </ContactBoxBut>
+          </Link>
         </Box>
       </BackGround>
     </>

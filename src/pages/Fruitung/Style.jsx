@@ -103,6 +103,15 @@ export const MonthBox = styled.div`
   &:last-child {
     margin-right: 0; /* 마지막 MonthBox의 오른쪽 마진을 0으로 설정 */
   }
+
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center;
+  transform: scale(1);
+
+  /* &.animated {
+    transform: scale(1.1);
+  } */
 `;
 
 export const InfoBoxTop1 = styled.div`
@@ -120,6 +129,14 @@ export const InfoBoxTop1 = styled.div`
   line-height: 200%;
   border: 2px solid #ffa100;
   margin-left: 20%;
+
+  transition: transform 0.5s ease-in-out;
+  transform-origin: center;
+  transform: scale(1);
+
+  &.animated {
+    transform: scale(1.1);
+  }
 `;
 export const InfoBoxTop2 = styled.div`
   display: flex;
@@ -136,6 +153,14 @@ export const InfoBoxTop2 = styled.div`
   line-height: 200%;
   border: 2px solid #ffa100;
   margin-right: 25%;
+
+  transition: transform 0.5s ease-in-out;
+  transform-origin: center;
+  transform: scale(1);
+
+  &.animated {
+    transform: scale(1.1);
+  }
 `;
 export const InfoBoxBottom1 = styled.div`
   display: flex;
@@ -152,6 +177,14 @@ export const InfoBoxBottom1 = styled.div`
   line-height: 200%;
   border: 2px solid #ffa100;
   margin-left: 37%;
+
+  transition: transform 0.5s ease-in-out;
+  transform-origin: center;
+  transform: scale(1);
+
+  &.animated {
+    transform: scale(1.1);
+  }
 `;
 export const InfoBoxBottom2 = styled.div`
   display: flex;
@@ -168,6 +201,14 @@ export const InfoBoxBottom2 = styled.div`
   line-height: 200%;
   border: 2px solid #ffa100;
   margin-right: 6%;
+
+  transition: transform 0.5s ease-in-out;
+  transform-origin: center;
+  transform: scale(1);
+
+  &.animated {
+    transform: scale(1.1);
+  }
 `;
 export const InfoBoxContainer = styled.div`
   width: 100%;
@@ -182,6 +223,7 @@ export const Box = styled.div`
   display: flex;
   flex-direction: row;
 `;
+
 export const ImageWe = styled.img`
   width: 20%;
 `;
