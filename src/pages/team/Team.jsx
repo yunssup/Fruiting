@@ -15,11 +15,8 @@ import {
 function Contact() {
   return (
     <BackGround>
-      <Title>
-        과일컵으로 싱그러운 아침을 🌄 <br />
-        폐지 수거 어르신에게 싱그러운 미래를 🌟
-        <BackImage src="Image/슬로건나무해2X.png" alt="수정중.." />
-      </Title>
+      <BackImage src="Image/최종슬로건.png" alt="수정중.." />
+      {/* <BackImage src="Image/슬로건유정.png" alt="수정중.." /> */}
 
       {/* 폐지수거노인이야기 */}
       <Title>폐지 수거 노인분들의 이야기</Title>

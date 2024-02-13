@@ -19,7 +19,7 @@ function Project() {
             1차 체험단 구경하기
           </Box1>
         </Link>
-        <Link to="/Review1" style={linkStyle}>
+        <Link to="/Review2" style={linkStyle}>
           <Box2>
             <Image src="Image/딸기.png" alt="프루잉 이미지" />
             2차 체험단 구경하기

@@ -6,7 +6,7 @@ import Team from "./pages/team/Team";
 import Project from "./pages/Project/Project";
 import Navbar from "./components/Navbar";
 import Review1 from "./pages/Project/Review1";
-
+import Review2 from "./pages/Project/Review2";
 import "./index.css";
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Route path="/Fruiting" element={<Fruiting />} />
         <Route path="/Project" element={<Project />} />
         <Route path="/Review1" element={<Review1 />} />
+        <Route path="/Review2" element={<Review2 />} />
       </Routes>
     </div>
   );

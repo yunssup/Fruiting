@@ -11,7 +11,8 @@ export const BackGround = styled.div`
   justify-content: center;
 `;
 export const BackImage = styled.img`
-  width: 90%;
+  width: 100%;
+  /* margin-top: 5%; */
 `;
 export const Title = styled.div`
   color: #000;
@@ -21,6 +22,7 @@ export const Title = styled.div`
   font-weight: 600;
   line-height: normal;
   text-align: center;
+  margin-top: 5%;
 `;
 export const MainTitle = styled.div`
   display: flex;
