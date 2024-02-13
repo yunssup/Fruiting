@@ -4,9 +4,10 @@ import { Route, Routes } from "react-router-dom";
 import Fruiting from "./pages/Fruitung/Fruiting";
 import Team from "./pages/team/Team";
 import Project from "./pages/Project/Project";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Review1 from "./pages/Project/Review1";
 import Review2 from "./pages/Project/Review2";
+import Footer from "./components/Footer/Footer";
 import "./index.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Review1" element={<Review1 />} />
         <Route path="/Review2" element={<Review2 />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

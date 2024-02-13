@@ -31,7 +31,7 @@ import {
   faComment,
 } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 
 function Fruiting() {
@@ -170,7 +170,7 @@ function Fruiting() {
         <ImageWe src="./public/Image/진영.png" alt="프루잉 이미지" />
       </Box> */}
         {/* 4페이지 */}
-        <Title>Contact</Title>
+        {/* <Title>Contact</Title>
         <Box>
           <Link
             to="http://pf.kakao.com/_xfqLxdG"
@@ -209,7 +209,7 @@ function Fruiting() {
               <FontAwesomeIcon icon={faPen} size="3x" /> 블로그
             </ContactBoxBut>
           </Link>
-        </Box>
+        </Box> */}
       </BackGround>
     </>
   );

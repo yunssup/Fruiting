@@ -10,13 +10,13 @@ import {
   BoxContainer,
   S_Story,
   BackImage,
+  M_Title,
 } from "./Style";
 
 function Contact() {
   return (
     <BackGround>
       <BackImage src="Image/최종슬로건.png" alt="수정중.." />
-      {/* <BackImage src="Image/슬로건유정.png" alt="수정중.." /> */}
 
       {/* 폐지수거노인이야기 */}
       <Title>폐지 수거 노인분들의 이야기</Title>
@@ -48,13 +48,16 @@ function Contact() {
         </Box>{" "}
       </BoxContainer>
       <S_Story>
-        해가 뜨지도 않은 새벽, 폐지수거노인분들은 집을 나섭니다. <br />
-        하루에도 몇번씩 폐지를 주워 고물상을 드나들지만 생계를 이어나가기엔
+        해도 뜨지 않은 어두운 새벽, 폐지 수거 어르신은 집을 나섭니다. <br />
+        하루에도 여러 차례 폐지를 주워 고물상을 드나들지만,
         <br />
-        턱없이 부족합니다.
+        그럼에도 생계를 이어 나가기엔 턱없이 부족합니다. <br />
+        프루잉은 이러한 폐지 수거 어르신에게 새로운 아침을 선물합니다.{" "}
       </S_Story>
+      {/* 프루잉 미션 비젼 설명 */}
       <MainTitle>
-        <Title>프루잉은 폐지 수거 노인에게</Title>
+        <M_Title>프루잉은 폐지 수거 노인에게</M_Title>
+        <Image src="Image/노인.png" alt="프루잉 이미지" />
       </MainTitle>
       <Story>
         <p>
@@ -68,8 +71,8 @@ function Contact() {
         </p>
       </Story>
       <MainTitle>
-        <Title>따라서, 프루잉은</Title>
-        {/* <Image src="./public/Image/학생.png" alt="프루잉 이미지" /> */}
+        <M_Title>따라서, 프루잉은</M_Title>
+        <Image src="Image/학생.png" alt="프루잉 이미지" />
       </MainTitle>
       <Story>
         <p>폐지 수거 노인을</p>

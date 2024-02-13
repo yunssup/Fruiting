@@ -54,16 +54,6 @@ function Project() {
         </BoxRe>
         <ImageRe src="Image/귤.png" alt="프루잉 이미지" />
       </Box2>
-
-      <Box2>
-        <ImageRe src="Image/사과.png" alt="프루잉 이미지" />
-
-        <BoxRe>
-          취지도 좋고 과일 상태도 좋아 정식 런칭되면 꼭 참여하고 싶습니다!
-          감사합니다! <br />
-          -강** 님-
-        </BoxRe>
-      </Box2>
     </BackGround>
   );
 }
