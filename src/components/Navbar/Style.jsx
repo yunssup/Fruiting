@@ -6,7 +6,16 @@ export const StyledNavbar = styled.div`
   align-items: center;
   width: 100vw;
   background-color: #ffffff;
-  border: none;
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+
+  @media (max-width: 767px) {
+    width: 380px;
+  }
 `;
 
 export const NavbarMenu = styled.button`
@@ -18,6 +27,16 @@ export const NavbarMenu = styled.button`
   margin-right: 15px;
   border: none;
   font-family: Pretendard-Bold;
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+
+  @media (max-width: 767px) {
+    margin-right: 8px;
+    font-size: 15px;
+  }
 `;
 
 export const LogoButton = styled.button`
@@ -28,6 +47,15 @@ export const LogoButton = styled.button`
   align-items: center;
   justify-content: center;
   margin-left: 13%;
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+
+  @media (max-width: 767px) {
+    margin-left: 0%;
+  }
 `;
 
 export const Image = styled.img`
@@ -37,6 +65,17 @@ export const Image = styled.img`
   display: flex;
   /* border: 1px solid red; */
   margin-left: 13%;
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+
+  @media (max-width: 767px) {
+    max-width: 50px;
+
+    margin-left: 0%;
+  }
 `;
 
 export const CenteredContainer = styled.div`
