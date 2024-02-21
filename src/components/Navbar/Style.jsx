@@ -5,19 +5,19 @@ export const StyledNavbar = styled.div`
   display: flex;
   align-items: center;
   width: 100vw;
-  background-color: #fffbf5;
+  background-color: #ffffff;
   border: none;
-  /* position: fixed; */
-  /* z-index: 1000; */
 `;
 
 export const NavbarMenu = styled.button`
-  color: #656565;
-  background-color: #fffbf5;
+  color: #303030;
+  background-color: #ffffff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
   margin-right: 15px;
+  border: none;
+  font-family: Pretendard-Bold;
 `;
 
 export const LogoButton = styled.button`
@@ -27,6 +27,7 @@ export const LogoButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 13%;
 `;
 
 export const Image = styled.img`
@@ -34,6 +35,8 @@ export const Image = styled.img`
   align-items: center;
   justify-content: center;
   display: flex;
+  /* border: 1px solid red; */
+  margin-left: 13%;
 `;
 
 export const CenteredContainer = styled.div`

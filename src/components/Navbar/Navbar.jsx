@@ -5,8 +5,8 @@ import { StyledNavbar, NavbarMenu, Image, LogoButton } from "./Style";
 
 function CustomNavbar() {
   const linkStyle = {
-    textDecoration: "none", // 밑줄 없애기
-    color: "#000", // 링크 텍스트 색상 지정 (선택 사항)
+    textDecoration: "none",
+    color: "#000",
   };
 
   return (
