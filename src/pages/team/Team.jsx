@@ -148,7 +148,7 @@ function Contact() {
 
       <S.Story data-aos="fade-up">
         <span>지속 가능한 일자리</span>와 <span>공정한 임금</span>을 보장하여
-        <span>경제적 어려움을 개선</span>하기 위해 노력합니다
+        <span> 경제적 어려움을 개선</span>하기 위해 노력합니다
       </S.Story>
 
       <S.M_Title data-aos="fade-up">👩🏻‍💻따라서, 프루잉은👨🏻‍💻</S.M_Title>
