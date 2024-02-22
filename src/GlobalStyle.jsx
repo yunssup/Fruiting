@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
-import PretendardMedium from "./assets/fonts/pretendard-medium.otf";
-import PretendardBold from "./assets/fonts/pretendard-bold.otf";
+import PretendardMedium from "./assets/fonts/pretendard-medium.woff";
+import PretendardBold from "./assets/fonts/pretendard-bold.woff";
 
 export const GlobalStyle = createGlobalStyle`html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -18,7 +18,7 @@ time, mark, audio, video {
 
 @font-face {
     font-family: 'Pretendard-Medium';
-    src: url(${PretendardMedium}) format('otf');
+    src: url(${PretendardMedium}) format('woff');
     font-weight: 500;
 }
 
