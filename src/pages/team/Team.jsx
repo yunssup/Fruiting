@@ -141,10 +141,7 @@ function Contact() {
         프루잉은 이러한 폐지 수거 어르신에게 새로운 아침을 선물합니다.{" "}
       </S.S_Story>
 
-      {/* 프루잉 미션 비젼 설명 */}
-
       <S.M_Title data-aos="fade-up">👴🏻프루잉은 폐지 수거 노인에게👵🏻</S.M_Title>
-      {/* <S.Image src="Image/노인.png" alt="프루잉 이미지" /> */}
 
       <S.Story data-aos="fade-up">
         <span>지속 가능한 일자리</span>와 <span>공정한 임금</span>을 보장하여
@@ -152,7 +149,6 @@ function Contact() {
       </S.Story>
 
       <S.M_Title data-aos="fade-up">👩🏻‍💻따라서, 프루잉은👨🏻‍💻</S.M_Title>
-      {/* <S.Image src="Image/학생.png" alt="프루잉 이미지" /> */}
 
       <S.Story data-aos="fade-up">
         폐지 수거 노인을

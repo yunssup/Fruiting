@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const BackGround = styled.div`
-  width: 100vw;
+  /* width: 100vw; */
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -102,7 +102,7 @@ export const Box = styled.button`
   font-style: normal;
   font-weight: 550;
   line-height: 1.7;
-  margin-right: 20px; /* 우측 여백 추가 */
+  margin-right: 20px;
   margin-bottom: 3%;
 `;
 export const Clickbox = styled.button`
@@ -121,7 +121,7 @@ export const Clickbox = styled.button`
   font-size: 14px;
   font-style: normal;
   line-height: 1.8;
-  margin-right: 20px; /* 우측 여백 추가 */
+  margin-right: 20px;
   margin-bottom: 3%;
 `;
 export const BoxContainer = styled.div`
