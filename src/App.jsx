@@ -8,11 +8,14 @@ import Navbar from "./components/Navbar/Navbar";
 import Review1 from "./pages/Project/Review1";
 import Review2 from "./pages/Project/Review2";
 import Footer from "./components/Footer/Footer";
+import { GlobalStyle } from "./GlobalStyle";
 import "./index.css";
 
 function App() {
   return (
     <div className="App">
+      <GlobalStyle />
+
       <Navbar />
       <Routes>
         <Route path="/" element={<Team />} />

@@ -1,90 +1,64 @@
 import { createGlobalStyle } from "styled-components";
-import AppleSDGothicNeoL from "./assets/fonts/AppleSDGothicNeoL.ttf";
-import AppleSDGothicNeoB from "./assets/fonts/AppleSDGothicNeoB.ttf";
-import AppleSDGothicNeoM from "./assets/fonts/AppleSDGothicNeoM.ttf";
+import Pretendard_Medium from "../src/assets/fonts/pretendard-medium.otf";
+import Pretendard_Bold from "../src/assets/fonts/pretendard-bold.otf";
 
-export const GlobalStyle = createGlobalStyle`
-html, body, div, span, applet, object, iframe,
+export const GlobalStyle = createGlobalStyle`html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, menu, ol, ul, li,
+dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-main, menu, nav, output, ruby, section, summary,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url(${Pretendard_Medium}) format('woff');
+    font-weight: 500;
 }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, main, menu, nav, section {
-  display: block;
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url(${Pretendard_Bold}) format('woff');
+    font-weight: 700;
 }
-/* HTML5 hidden-attribute fix for newer browsers */
-*[hidden] {
-    display: none;
+
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	font-size: 10px;
+    @media (max-width: 768px) {
+        font-size: 8px;
+    }
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
-menu, ol, ul {
-  list-style: none;
-  padding-left: 0;
+ol, ul {
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-@font-face {
-  font-family: "AppleSDGothicNeoL";
-  src: url(${AppleSDGothicNeoL});
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "AppleSDGothicNeoM";
-  src: url(${AppleSDGothicNeoM});
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "AppleSDGothicNeoB";
-  src: url(${AppleSDGothicNeoB});
-  font-weight: normal;
-  font-style: normal;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-*::selection {
-  color: black;
-  background: #daa520;
-}
-
-body {
-    font-family: "AppleSDGothicNeoM";
-    background-color: ${(props) => props.theme.bgColor};
-    color: ${(props) => props.theme.textColor};
-}
-
-`;
+	border-collapse: collapse;
+	border-spacing: 0;
+}`;
