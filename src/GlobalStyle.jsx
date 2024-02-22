@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import PretendardMedium from "./assets/fonts/pretendard-medium.woff";
+import PretendardMedium from "../src/assets/fonts/pretendard-medium.woff";
 import PretendardBold from "./assets/fonts/pretendard-bold.woff";
 
 export const GlobalStyle = createGlobalStyle`html, body, div, span, applet, object, iframe,
