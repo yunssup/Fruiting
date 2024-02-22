@@ -18,13 +18,13 @@ time, mark, audio, video {
 
 @font-face {
     font-family: 'Pretendard-Medium';
-    src: url(${Pretendard_Medium}) format('woff');
+    src: url(${Pretendard_Medium}) format('otf');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Pretendard-Bold';
-    src: url(${Pretendard_Bold}) format('woff');
+    src: url(${Pretendard_Bold}) format('otf');
     font-weight: 700;
 }
 
