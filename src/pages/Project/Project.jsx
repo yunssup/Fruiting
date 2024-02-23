@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import "aos/dist/aos.css";
+import AOS from "aos";
 import {
   SubTitle,
   BackGround,
@@ -18,14 +19,19 @@ function Project() {
     color: "#000", // 링크 텍스트 색상 지정 (선택 사항)
   };
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <BackGround>
-      <Title>프루잉 Project</Title>
-      <SubTitle>
+      <Title data-aos="fade-up">프루잉 Project</Title>
+      <SubTitle data-aos="fade-up">
         프루잉의 프로젝트는 지속적으로 업데이트 됩니다! 많은 관심 부탁드립니다!
       </SubTitle>
 
-      <Line>
+      <Line data-aos="fade-right">
         <Link to="/Review1" style={linkStyle}>
           <Box1>
             <Image src="Image/파인애플.png" alt="프루잉 이미지" />
