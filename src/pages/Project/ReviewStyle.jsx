@@ -11,13 +11,13 @@ export const BackGround = styled.div`
 `;
 export const Title = styled.div`
   color: #000;
-  font-family: Inter;
-  font-size: 50px;
+  font-family: Pretendard-Bold;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-align: center;
-  margin-top: 1%;
+  margin: 2% 0%;
 `;
 export const Box = styled.div`
   width: 80%;
@@ -33,8 +33,8 @@ export const Box = styled.div`
 `;
 export const Story = styled.div`
   color: #000;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 18px;
+  font-family: Pretendard-Medium;
   line-height: 2.3;
   text-align: left;
   margin-left: 3%;

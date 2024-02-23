@@ -41,7 +41,7 @@ function Contact() {
       {/* 폐지수거노인이야기 */}
       <S.Title data-aos="fade-up">폐지 수거 노인분들의 이야기</S.Title>
       <S.SubTitle data-aos="fade-up">
-        박스를 클릭해 자세한 내용을 확인하세요🔎
+        박스를 클릭해 자세한 내용을 확인하세요 🔎
       </S.SubTitle>
 
       <S.BoxContainer data-aos="fade-right">
