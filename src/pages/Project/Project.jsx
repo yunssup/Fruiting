@@ -1,7 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { BackGround, Title, Line, Box1, Image, Box2, Box3 } from "./Style";
+import {
+  SubTitle,
+  BackGround,
+  Title,
+  Line,
+  Box1,
+  Image,
+  Box2,
+  Box3,
+} from "./Style";
 
 function Project() {
   const linkStyle = {
@@ -12,6 +21,10 @@ function Project() {
   return (
     <BackGround>
       <Title>프루잉 Project</Title>
+      <SubTitle>
+        프루잉의 프로젝트는 지속적으로 업데이트 됩니다! 많은 관심 부탁드립니다!
+      </SubTitle>
+
       <Line>
         <Link to="/Review1" style={linkStyle}>
           <Box1>

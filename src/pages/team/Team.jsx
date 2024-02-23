@@ -117,7 +117,7 @@ function Contact() {
           <span>지속 가능한 일자리</span>와 <span>공정한 임금</span>을 보장하여
           <br />
           폐지 수거 노인들의 <span> 경제적 어려움을 개선</span>하기 위해
-          노력합니다
+          노력합니다.
         </S.Story>
       </S.TextContainer>
       <S.TextContainer data-aos="fade-up">
@@ -125,7 +125,7 @@ function Contact() {
 
         <S.Story>
           동네를 돌아 다니며 <span>폐지를 수거하는 일</span>에서 <br />
-          무언가를 <span>배달하는 일로</span> 일의 특성을 전환하고자 합니다
+          무언가를 <span>배달하는 일로</span> 일의 특성을 전환하고자 합니다.
         </S.Story>
       </S.TextContainer>
       <S.TextContainer data-aos="fade-up">
@@ -133,7 +133,7 @@ function Contact() {
         <S.Story>
           폐지 수거 노인을
           <span> 과일컵 정기 배송 서비스 배달원</span>
-          으로 고용합니다
+          으로 고용합니다.
         </S.Story>
       </S.TextContainer>
     </S.BackGround>

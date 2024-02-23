@@ -47,7 +47,7 @@ function Fruiting() {
         <S.Hi data-aos="fade-up">지금까지 프루잉은 이렇게 달려왔어요!</S.Hi>
         <S.ImagePlan
           data-aos="fade-right"
-          src="Image/일정색수정.png"
+          src="Image/일정찐최종.png"
           alt="수정중.."
         />
 
@@ -60,27 +60,33 @@ function Fruiting() {
             <br /> 프루잉의 PM으로서 프로젝트 전반을 관리하며 팀을 이끌어나가요!
           </S.BoxWe>
         </S.Box>
-        <S.Box data-aos="fade-left">
+
+        <S.Box data-aos="fade-right">
+          <S.ImageWe src="Image/두윤.png" alt="프루잉 이미지" />{" "}
           <S.BoxWe>
-            상품 기획 : 권두윤 (식품생명공학) <br /> 더 나은 일자리를 위해
-            고객과 프루잉을 연결할 수 있는 상품을 기획해요!
+            상품 기획 : 권두윤 (식품생명공학)
+            <br /> 더 나은 일자리를 위해 고객과 프루잉을 연결할 수 있는 상품을
+            기획해요!
           </S.BoxWe>
-          <S.ImageWe src="Image/두윤.png" alt="프루잉 이미지" />
         </S.Box>
+
         <S.Box data-aos="fade-right">
           <S.ImageWe src="Image/유정.png" alt="프루잉 이미지" />
           <S.BoxWe>
-            회계/재무 : 윤유정 (회계학) <br /> 지속 가능한 비즈니스를 위한 재무
-            및 원가회계 업무를 담당하고 있어요!
+            회계/재무 : 윤유정 (회계학)
+            <br /> 지속 가능한 비즈니스를 위한 재무 및 원가회계 업무를 담당하고
+            있어요!
           </S.BoxWe>
         </S.Box>
-        <S.Box data-aos="fade-left">
+
+        <S.Box data-aos="fade-right">
+          <S.ImageWeEr src="Image/윤서배경없음.png" alt="프루잉 이미지" />
           <S.BoxWe>
             서비스 개발 : 김윤서 (경영학/ 컴퓨터공학) <br /> 많은 분들이
             프루잉에 대해 알 수 있도록 프루잉의 웹서비스를 개발해요!
           </S.BoxWe>
-          <S.ImageWe src="Image/윤서.png" alt="프루잉 이미지" />
         </S.Box>
+
         <S.Box data-aos="fade-right">
           <S.ImageWe src="Image/준희.png" alt="프루잉 이미지" />
           <S.BoxWe>
