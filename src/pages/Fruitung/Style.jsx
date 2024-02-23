@@ -46,7 +46,10 @@ export const Story = styled.div`
   font-family: Pretendard-Medium;
   text-align: center;
   line-height: 2.5;
-
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 90%;
+    font-size: 20px;
+  }
   @media (max-width: 767px) {
     width: 80%;
     margin-top: 5%;
@@ -61,6 +64,7 @@ export const Image = styled.img`
   width: 22%;
   height: 80%;
   margin: 25px auto;
+
   @media (max-width: 767px) {
     width: 20%;
     margin-top: 5%;
@@ -94,6 +98,9 @@ export const Image2 = styled.img`
 export const ImagePlan = styled.img`
   width: 70%;
   margin: 2%;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 90%;
+  }
   @media (max-width: 767px) {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -111,7 +118,9 @@ export const Box = styled.div`
   width: 50%;
   height: 100px;
   margin-top: 1%;
-
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 90%;
+  }
   @media (max-width: 767px) {
     border: 2px solid #ffa100;
 

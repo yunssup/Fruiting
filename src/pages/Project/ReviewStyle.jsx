@@ -35,6 +35,9 @@ export const Box = styled.div`
   margin-top: 1%;
   margin-bottom: 2%;
   padding: 20px 0px;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 90%;
+  }
   @media (max-width: 767px) {
     display: flex;
     flex-direction: column;
@@ -57,6 +60,9 @@ export const Story = styled.div`
 export const Image = styled.img`
   width: 200px;
   height: 300px;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 2%;
+  }
 `;
 
 export const Box2 = styled.div`
@@ -69,10 +75,13 @@ export const Box2 = styled.div`
   /* height: 100px; */
   margin-top: 1%;
   padding: 10px 0px;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 90%;
+    margin-bottom: 3%;
+  }
   @media (max-width: 767px) {
     border: 2px solid #ffa100;
     margin-bottom: 3%;
-
     width: 90%;
     height: 100%;
     font-size: 10px;
