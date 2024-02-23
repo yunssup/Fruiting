@@ -46,6 +46,7 @@ export const LogoButton = styled.button`
   align-items: center;
   justify-content: center;
   margin-left: 13%;
+  margin-top: 2%;
   @media (min-width: 1200px) {
   }
 
@@ -54,6 +55,7 @@ export const LogoButton = styled.button`
 
   @media (max-width: 767px) {
     margin-left: 0%;
+    margin-top: 2%;
   }
 `;
 
@@ -64,6 +66,8 @@ export const Image = styled.img`
   display: flex;
   /* border: 1px solid red; */
   margin-left: 13%;
+  margin-top: 2%;
+
   @media (min-width: 1200px) {
   }
 
@@ -72,7 +76,7 @@ export const Image = styled.img`
 
   @media (max-width: 767px) {
     max-width: 50px;
-
+    margin-top: 2%;
     margin-left: 0%;
   }
 `;
