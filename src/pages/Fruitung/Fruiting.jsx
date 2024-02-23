@@ -52,7 +52,7 @@ function Fruiting() {
         />
 
         {/* 3페이지 */}
-        <S.Hi data-aos="fade-up">프루잉의 팀원들을 소개할게요</S.Hi>
+        <S.Run data-aos="fade-up">프루잉의 팀원들을 소개할게요</S.Run>
         <S.Box data-aos="fade-right">
           <S.ImageWe src="Image\유빈.png" alt="유빈 사진 수정..." />
           <S.BoxWe>

@@ -15,12 +15,27 @@ export const Hi = styled.div`
   font-family: Pretendard-Bold;
   font-size: 36px;
   font-style: normal;
-  font-weight: 600;
   line-height: normal;
   margin-top: 3.5%;
 
   @media (max-width: 767px) {
     margin-top: 5%;
+    font-size: 22px;
+  }
+`;
+export const Run = styled.div`
+  color: #000;
+  font-family: Pretendard-Bold;
+  font-size: 36px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
+
+  @media (max-width: 767px) {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
     font-size: 22px;
   }
 `;
@@ -96,7 +111,11 @@ export const Box = styled.div`
   width: 50%;
   height: 100px;
   margin-top: 1%;
+  margin-bottom: 3%;
+
   @media (max-width: 767px) {
+    border: 2px solid #ffa100;
+
     width: 90%;
     height: 100%;
     font-size: 10px;
