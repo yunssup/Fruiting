@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const StyledNavbar = styled.div`
   display: flex;
   align-items: center;
-  /* width: 100vw; */
   background-color: #ffffff;
 
   @media (min-width: 1200px) {
@@ -14,7 +13,7 @@ export const StyledNavbar = styled.div`
   }
 
   @media (max-width: 767px) {
-    width: 370px;
+    width: 99%;
   }
 `;
 

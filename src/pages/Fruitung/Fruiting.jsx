@@ -88,54 +88,6 @@ function Fruiting() {
             나은 프루잉을 만들기 위해 경영과 기획을 담당하고 있어요!
           </S.BoxWe>
         </S.Box>
-        {/* <Box>
-        <BoxWe>
-          디자인 / 마케팅 : 김진영 (경영학) <br /> 지속 가능한 비즈니스를 위한
-          재무 및 원가회계 업무를 담당하고 있어요!
-        </BoxWe>
-        <ImageWe src="./public/Image/진영.png" alt="프루잉 이미지" />
-      </Box> */}
-        {/* 4페이지 */}
-        {/* <Title>Contact</Title>
-        <Box>
-          <Link
-            to="http://pf.kakao.com/_xfqLxdG"
-            style={{ textDecoration: "none" }}
-          >
-            <ContactBoxBut>
-              <FontAwesomeIcon icon={faComment} size="3x" />
-              카카오톡 플러스 채널
-            </ContactBoxBut>
-          </Link>
-          <a
-            href="mailto:fruitingofficial@naver.com"
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            <ContactBoxBut>
-              <FontAwesomeIcon icon={faEnvelope} size="3x" />
-              메일
-            </ContactBoxBut>
-          </a>
-        </Box>
-        <Box>
-          <Link
-            to="https://www.instagram.com/fruitingofficial?igsh=MTFkazRjMHRka2tjYg=="
-            style={{ textDecoration: "none" }}
-          >
-            <ContactBoxBut>
-              <FontAwesomeIcon icon={faInstagram} size="3x" />
-              인스타그램
-            </ContactBoxBut>
-          </Link>
-          <Link
-            to="https://blog.naver.com/fruitingofficial"
-            style={{ textDecoration: "none" }}
-          >
-            <ContactBoxBut>
-              <FontAwesomeIcon icon={faPen} size="3x" /> 블로그
-            </ContactBoxBut>
-          </Link>
-        </Box> */}
       </S.BackGround>
     </>
   );

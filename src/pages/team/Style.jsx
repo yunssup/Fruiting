@@ -19,7 +19,7 @@ export const BackImage = styled.img`
   }
 
   @media (max-width: 767px) {
-    width: 100%;
+    /* width: %; */
   }
 `;
 export const Title = styled.div`
@@ -31,7 +31,6 @@ export const Title = styled.div`
   line-height: normal;
   text-align: center;
   margin-top: 5%;
-  margin-bottom: 3%;
 
   @media (min-width: 1200px) {
   }
@@ -41,8 +40,30 @@ export const Title = styled.div`
 
   @media (max-width: 767px) {
     margin-top: 10%;
-    margin-bottom: 5%;
     font-size: 20px;
+  }
+`;
+export const SubTitle = styled.div`
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-family: Pretendard-Medium;
+  line-height: normal;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+
+  @media (max-width: 767px) {
+    margin-top: 6%;
+    margin-bottom: 8%;
+    font-size: 15px;
   }
 `;
 export const M_Title = styled.div`
@@ -54,6 +75,11 @@ export const M_Title = styled.div`
   line-height: normal;
   text-align: center;
   margin: 3% 0%;
+
+  @media (max-width: 767px) {
+    font-size: 20px;
+    margin-bottom: 5%;
+  }
 `;
 
 export const Story = styled.div`
@@ -61,16 +87,29 @@ export const Story = styled.div`
   font-family: Pretendard-Medium;
   font-size: 22px;
   font-style: normal;
-  line-height: normal;
+  line-height: 2;
   text-align: center;
+
   /* margin: 1% 0%; */
   span {
     color: #ffa100;
     font-family: Pretendard-Medium;
     font-size: 22px;
     font-style: normal;
-    line-height: normal;
+    line-height: 2;
     text-align: center;
+  }
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+    span {
+      font-size: 14px;
+    }
   }
 `;
 export const S_Story = styled.div`
@@ -83,6 +122,16 @@ export const S_Story = styled.div`
   text-align: center;
   margin-bottom: 3%;
   margin-top: 3%;
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+    margin-top: 5%;
+  }
 `;
 export const Box = styled.button`
   display: flex;
@@ -97,13 +146,26 @@ export const Box = styled.button`
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border: 3px solid #ffa100;
   color: rgba(0, 0, 0, 0.8);
-  font-family: Pretendard-Medium;
+  font-family: Pretendard-Bold;
   font-size: 18px;
   font-style: normal;
   font-weight: 550;
   line-height: 1.7;
   margin-right: 20px;
   margin-bottom: 3%;
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+
+  @media (max-width: 767px) {
+    margin-right: 10px;
+
+    width: 110px;
+    height: 70px;
+    font-size: 11px;
+  }
 `;
 export const Clickbox = styled.button`
   display: flex;
@@ -128,4 +190,11 @@ export const BoxContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+`;
+export const TextContainer = styled.div`
+  margin-bottom: 5%;
+
+  @media (max-width: 767px) {
+    margin-bottom: 10%;
+  }
 `;

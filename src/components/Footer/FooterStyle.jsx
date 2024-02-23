@@ -15,12 +15,33 @@ export const FooterTitle = styled.div`
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 10px;
+  @media (max-width: 767px) {
+    font-size: 16px;
+  }
 `;
 export const FooterSubTitle = styled.div`
   font-family: Pretendard-Medium;
   line-height: 24px;
   font-size: 16px;
   /* margin-bottom: 24px; */
+  @media (min-width: 1200px) {
+    br.Mobile {
+      display: none;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    br.Mobile {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    br.Mobile {
+      display: initial;
+    }
+    font-size: 12.8px;
+  }
 `;
 export const FooterLeft = styled.div`
   color: #737381;
@@ -30,6 +51,9 @@ export const FooterMiniTitle = styled.div`
   font-size: 12px;
   line-height: 16px;
   color: #d6d6dd;
+  @media (max-width: 767px) {
+    font-size: 9.6px;
+  }
 `;
 
 export const FooterRight = styled.div`
@@ -43,4 +67,8 @@ export const FooterImg = styled.img`
   height: 50px;
   /* border-radius: 50px;
   background-color: #737381; */
+  @media (max-width: 767px) {
+    width: 30px;
+    height: 30px;
+  }
 `;
