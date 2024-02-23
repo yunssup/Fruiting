@@ -30,7 +30,7 @@ export const Run = styled.div`
   font-style: normal;
   line-height: normal;
   margin-top: 3.5%;
-  margin-bottom: 3.5%;
+  margin-bottom: 2%;
 
   @media (max-width: 767px) {
     margin-top: 5%;
@@ -111,7 +111,6 @@ export const Box = styled.div`
   width: 50%;
   height: 100px;
   margin-top: 1%;
-  margin-bottom: 3%;
 
   @media (max-width: 767px) {
     border: 2px solid #ffa100;
