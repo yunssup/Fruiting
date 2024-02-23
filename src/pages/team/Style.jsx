@@ -19,7 +19,7 @@ export const BackImage = styled.img`
   }
 
   @media (max-width: 767px) {
-    /* width: %; */
+    width: 100%;
   }
 `;
 export const Title = styled.div`
@@ -185,6 +185,17 @@ export const Clickbox = styled.button`
   line-height: 1.8;
   margin-right: 20px;
   margin-bottom: 3%;
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+
+  @media (max-width: 767px) {
+    margin-right: 10px;
+    width: 110px;
+    font-size: 10px;
+  }
 `;
 export const BoxContainer = styled.div`
   display: flex;

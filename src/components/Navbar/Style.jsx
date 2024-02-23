@@ -13,7 +13,7 @@ export const StyledNavbar = styled.div`
   }
 
   @media (max-width: 767px) {
-    width: 99%;
+    width: 100%;
   }
 `;
 
@@ -33,8 +33,8 @@ export const NavbarMenu = styled.button`
   }
 
   @media (max-width: 767px) {
-    /* margin-right: 8px; */
-    font-size: 15px;
+    margin-right: 8px;
+    font-size: 12px;
   }
 `;
 
