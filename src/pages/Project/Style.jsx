@@ -159,7 +159,7 @@ export const Image = styled.img`
   margin-bottom: 8%;
 
   @media (max-width: 767px) {
-    width: 30%;
+    width: 25%;
     height: 40%;
     margin-bottom: 8%;
   }

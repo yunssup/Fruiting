@@ -90,69 +90,61 @@ export const ImagePlan = styled.img`
 export const Box = styled.div`
   display: flex;
   flex-direction: row;
-`;
-
-export const ImageWe = styled.img`
-  width: 20%;
-  /* @media (max-width: 767px) {
-    width: 15%;
-    height: 15%;
-  } */
-`;
-export const ImageWeEr = styled.img`
-  width: 15%;
-  height: 20%;
-  margin-top: 2%;
-  margin-left: 2%;
-  /* @media (max-width: 767px) {
-    width: 15%;
-    height: 15%;
-  } */
-`;
-export const BoxWe = styled.div`
-  display: flex;
-  width: 100%;
-  height: 80px;
-  background-color: #ffffff;
-  border-radius: 40px;
-  align-items: center;
-  justify-content: center;
-  color: #000;
-  font-size: 15px;
-  /* box-shadow: 0px 4px 4px #00000040; */
-  line-height: 200%;
-  /* border: 2px solid #ffa100; */
-  margin-top: 5%;
-  font-family: Pretendard-Medium;
-  span {
-    font-size: 15px;
-    font-family: Pretendard-Bold;
-  }
+  border: 3px solid #ffa100;
+  box-shadow: 0px 4px 4px #00000040;
+  border-radius: 20px;
+  width: 50%;
+  height: 100px;
+  margin-top: 1%;
   @media (max-width: 767px) {
-    width: 70%;
+    width: 90%;
     height: 100%;
     font-size: 10px;
   }
 `;
-export const ContactBoxBut = styled.button`
+
+export const ImageWe = styled.img`
+  width: 10%;
+  height: 100%;
+  margin-left: 4%;
+  @media (max-width: 767px) {
+    margin-left: 5%;
+  }
+`;
+export const ImageWeDo = styled.img`
+  width: 10%;
+  height: 95%;
+  margin-left: 4%;
+  @media (max-width: 767px) {
+    margin-left: 5%;
+    margin-top: -1%;
+  }
+`;
+export const ImageWeEr = styled.img`
+  width: 10%;
+  height: 80%;
+  margin-top: 2%;
+  margin-left: 4%;
+  @media (max-width: 767px) {
+    width: 9%;
+    height: 79%;
+    margin-left: 6%;
+    margin-top: 2px;
+  }
+`;
+export const BoxWe = styled.div`
   display: flex;
-  flex-direction: column;
-  width: 220px;
-  height: 207px;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
-  background: #ffffff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border: 2px solid #ffa100;
   color: #000;
+  font-size: 16px;
+  line-height: 200%;
   font-family: Pretendard-Medium;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 550;
-  line-height: 2.5;
-  margin-top: 5%;
-  margin-right: 5%;
-  /* margin-left: 5%; */
+  margin-left: 12%;
+  @media (max-width: 767px) {
+    width: 80%;
+    height: 100%;
+    font-size: 9px;
+    margin-left: 1%;
+  }
 `;

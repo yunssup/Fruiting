@@ -62,7 +62,7 @@ function Fruiting() {
         </S.Box>
 
         <S.Box data-aos="fade-right">
-          <S.ImageWe src="Image/두윤.png" alt="프루잉 이미지" />{" "}
+          <S.ImageWeDo src="Image/두윤.png" alt="프루잉 이미지" />{" "}
           <S.BoxWe>
             상품 기획 : 권두윤 (식품생명공학)
             <br /> 더 나은 일자리를 위해 고객과 프루잉을 연결할 수 있는 상품을
@@ -90,8 +90,8 @@ function Fruiting() {
         <S.Box data-aos="fade-right">
           <S.ImageWe src="Image/준희.png" alt="프루잉 이미지" />
           <S.BoxWe>
-            경영/기획 : 나준희 (국제통상학) <br /> 안정적인 일자리 창출과 더
-            나은 프루잉을 만들기 위해 경영과 기획을 담당하고 있어요!
+            경영/기획 : 나준희 (국제통상학) <br /> 안정적인 일자리 창출과
+            프루잉을 위해 경영과 기획을 담당하고 있어요!
           </S.BoxWe>
         </S.Box>
       </S.BackGround>
