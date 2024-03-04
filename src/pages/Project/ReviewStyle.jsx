@@ -65,6 +65,14 @@ export const Image = styled.img`
   }
 `;
 
+export const Imagerow = styled.img`
+  width: 300px;
+  height: 200px;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 2%;
+  }
+`;
+
 export const Box2 = styled.div`
   display: flex;
   flex-direction: row;
