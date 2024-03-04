@@ -15,7 +15,7 @@ function ProjectReview() {
       {/* 체험단 소개 */}
       <S.Title data-aos="fade-up">3차 체험단 진행</S.Title>
       <S.Box data-aos="fade-up">
-        <S.Imagerow src="Image/3차두윤준희.jpg" alt="프루잉 이미지" />
+        <S.Imagerow src="Image/3차사진수정.jpg" alt="프루잉 이미지" />
         <S.Story>
           3차 체험단은 1차에 이어 사당역 인근 거주자 분들과 함께했습니다.
           <br />
