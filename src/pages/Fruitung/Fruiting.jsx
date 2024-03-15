@@ -47,7 +47,7 @@ function Fruiting() {
         <S.Hi data-aos="fade-up">지금까지 프루잉은 이렇게 달려왔어요!</S.Hi>
         <S.ImagePlan
           data-aos="fade-right"
-          src="Image/일정찐최종.png"
+          src="Image/프루잉일정업데이트3월.png"
           alt="수정중.."
         />
 
